@@ -140,14 +140,6 @@ def query_rag_system(question: str):
     # Generate context-aware answer
     context = "\n".join([doc.page_content for doc in unique_docs])
     
-    # Your LLM generation logic here...
-    return answer
-
-
-def process_insurance_query(query: str):
-    # Get general RAG answer
-    rag_answer = query_rag_system(query)
-    
     # Get claim decision if query is about claims
     if "claim" in query.lower() or "surgery" in query.lower():
         decision = process_claim_decision(query)
@@ -161,6 +153,7 @@ def process_insurance_query(query: str):
             "answer": rag_answer,
             "type": "general_query"
         }
+
 
 # ====================================
 # RUN SERVER
