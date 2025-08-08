@@ -1,38 +1,18 @@
-# Query_backend
+# Query Backend
 
-This repository is under development. More details will be added soon!
+This project is built using FastAPI.
 
-## Setup Instructions
+## Environment Variables
 
-Follow these steps to set up and run the project on your system:
+To run this project, you will need to set the following environment variables:
 
-### Prerequisites
-1. Ensure you have [Git](https://git-scm.com/) installed on your system.
-2. Install the latest version of [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/).
+- `LANGSMITH_API_KEY`: Your LangSmith API key.
+- `GEMINI_API_KEY`: Your Gemini API key.
 
-### Steps
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/MrShadow335/Query_backend.git
-   ```
+Make sure to replace the placeholders with your actual API keys in your environment configuration.
 
-2. Navigate to the project directory:
-   ```bash
-   cd Query_backend
-   ```
+## Installation
 
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-
-### Running Tests
-To run tests, use the following command:
-```bash
-npm test
-```
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the application.
