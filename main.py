@@ -143,9 +143,6 @@ def query_rag_system(question: str):
     # Your LLM generation logic here...
     return answer
 
-def main_rag_query(question: str):
-    return query_rag_system(question)
-
 
 def process_insurance_query(query: str):
     # Get general RAG answer
