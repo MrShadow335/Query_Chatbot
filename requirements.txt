@@ -4,4 +4,9 @@ pydantic
 langchain
 langchain_google_genai
 database
-
+google
+langchain_google_genai
+langchain_milvus
+langchain_core
+typing
+langchain-community
